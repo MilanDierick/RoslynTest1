@@ -20,6 +20,8 @@ namespace Compiler
             };
 
             var soln = msws.OpenSolutionAsync(path).Result;
+
+            // Verander 'Name' check om het te compileren project te veranderen.
             var comp = soln.Projects.First(x => x.Name == "RoslynTest").GetCompilationAsync().Result;
             var errs = comp.GetDiagnostics().Where(n => n.Severity == DiagnosticSeverity.Error).ToList();
 
