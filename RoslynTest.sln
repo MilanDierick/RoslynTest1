@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynTest", "RoslynTest\RoslynTest.csproj", "{363D5E7A-A0DA-4FE3-A5CB-F3CC9127ADC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compiler", "Compiler\Compiler.csproj", "{C1CD3455-656D-458D-BACF-4227AFE1FE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynConsole", "RoslynConsole\RoslynConsole.csproj", "{279DCA2E-62BB-4177-8C90-D771B1580885}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363D5E7A-A0DA-4FE3-A5CB-F3CC9127ADC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363D5E7A-A0DA-4FE3-A5CB-F3CC9127ADC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363D5E7A-A0DA-4FE3-A5CB-F3CC9127ADC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363D5E7A-A0DA-4FE3-A5CB-F3CC9127ADC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CD3455-656D-458D-BACF-4227AFE1FE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CD3455-656D-458D-BACF-4227AFE1FE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CD3455-656D-458D-BACF-4227AFE1FE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CD3455-656D-458D-BACF-4227AFE1FE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279DCA2E-62BB-4177-8C90-D771B1580885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279DCA2E-62BB-4177-8C90-D771B1580885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279DCA2E-62BB-4177-8C90-D771B1580885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279DCA2E-62BB-4177-8C90-D771B1580885}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED92F62A-4679-470F-91E1-3ACD61C91FF2}
+	EndGlobalSection
+EndGlobal
